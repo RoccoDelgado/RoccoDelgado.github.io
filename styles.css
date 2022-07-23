@@ -138,7 +138,29 @@ font-weight: bolder;
 padding: 10px;
 
 }
-.habilidades {
-font-size: 30px;
-font-weight: lighter;
+.box h4 {
+    text-transform: uppercase;
+    color:#000000;
+    font-size: 16px;
+}
+.box {
+    position: relative;
+    width:100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.box .porcentaje {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: rgb(160, 160, 160);
+}
+.box .porcentaje div {
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    background:#03a9f4;
 }

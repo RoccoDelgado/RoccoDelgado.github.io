@@ -3,29 +3,73 @@
     <head>
         <title>Curriculum</title>
         <link rel="stylesheet" href="styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Josefin+Sans:wght@200&family=Paytone+One&display=swap" rel="stylesheet">    </head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
     <body>
-        <main id="main">
-            <div class="container">
+        <main>
+            <div class="barra">
             <section id="hero">
-                <h1>Rocco Delgado</h1>
-                <h2>Estudiante de informatica</h2>
+                <div class="perfil">
+                    <div class="foto">
+                    <img src="foto.jpg">
+                </div>
+                    <h2>Rocco Delgado <span>Estudiante de informatica</span></h2>
+                </div>
             </section>
+            <div class="contacto">
+                <h3 class="contact">Info de contacto</h3>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span class="text">+54 9 387 565-0410</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <span class="text">roccodelgado10@gmail.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                        <span class="text"><a href="http://https://www.linkedin.com/in/rocco-delgado-velazquez-3a2b0423a">roccodelgadovelazquez</a></span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span class="text">Argentina, Salta</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="contacto">
+                <h3 class="contact">proyectos</h3>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-leaf" aria-hidden="true"></i></span>
+                        <a href="https://github.com/RoccoDelgado/RoccoDelgado">My Garden</a>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-mobile" aria-hidden="true"></i></span>
+                        <a href="https://github.com/RoccoDelgado/RoccoDelgado">Reality Plus</a>
+                    </li>
+                </ul>
+            </div>
+
+            </div>
+            <div class="container">
+                <section id="personal">
+                    <h1 class="titulo">Presentacion</h1>
+                    <p>Soy un estudiante de informatica interesado en la programacion y el desarrollo WEB, mi pasatiempo favoritos son los videojuegos y tambien me gusta dedicar tiempo a aprender sobre las nuevas tecnologias</p>
+                </section>
             <section id="personal">
                 <h1 class="titulo">Datos Personales</h1>
                 <hr>
                 <ul>
-                    <li>Nombres:</li>
-                    <li>Rocco</li> 
-                    <li>Ignacio</li> 
+                    <label>Nombres</label>
+                    <li>Rocco Ignacio</li> 
                 </ul>  
                 <ul>       
-                    <li>Apellido:</li>
-                    <li>Delgado</li>
-                    <li>Velazquez</li>            
+                    <label>Apellidos</label>
+                    <li>Delgado Velazquez</li>           
                 </ul>
                 <ul>
-                    <li>Edad</li> 
+                    <label>Edad</label>
                     <li>18 años</li>               
                 </ul>
             </section>
@@ -35,18 +79,15 @@
                 <hr>
               
                     <ul>
-                        <li>Tecnico en informatica</li> 
-                        <li>2022</li>      
+                        <label>Tecnico en informatica 2022</label>   
                         <li>ESCUELA DE EDUCACION TECNICA Nº3139</li>             
                     </ul>
                     <ul>
-                        <li>Estudios secundarios</li> 
-                        <li>2022</li>      
+                        <label>estudios secundarios 2022</label>     
                         <li>ESCUELA DE EDUCACION TECNICA Nº3139</li>             
                     </ul>
                     <ul>
-                        <li>Desarrollo WEB</li> 
-                        <li>2022</li>      
+                        <label>Desarrollo WEB 2022</label>  
                         <li>GoogleActivate</li>             
                     </ul>
                 
@@ -55,59 +96,40 @@
             <section id="experencialab">
                 <h1 class="titulo">Experencia Laboral</h1>
                 <hr>
-                <div>
+                <div class="laboral">
                     <ul>
-                        <li>Mantenimiento de pc</li> 
-                        <li>2021</li>             
+                        <span><i class="fa fa-desktop" aria-hidden="true"></i></span> 
+                        <span>Mantenimiento de pc 2021</span>         
                     </ul>
                     <ul>
-                        <li>Servicio tecnico</li> 
-                        <li>2021</li>             
+                        <span><i class="fa fa-user" aria-hidden="true"></i></span> 
+                        <span>Servicio tecnico 2021</span>
                     </ul>
                 </div>
             </section>
             <section id="habilidades">
                 <h1 class="titulo">Habilidades</h1>
                 <hr>
-                <div>
+                <div class="habilidades">
                     <ul>
-                        <li>Manejo de </li> 
-                        <li>SQL</li>
+                        <label>Manejo de SQL</label> 
                         <progress value="50" max="100"></progress>                
                     </ul>
                     <ul>
-                        <li>Manejo de</li> 
-                        <li>C++</li>   
-                        <progress value="40" max="100"></progress>             
+                        <label>Manejo de C++</label> 
+                        <progress value="35" max="100"></progress>             
                     </ul>
                     <ul>
-                        <li>Manejo de</li> 
-                        <li>HTML</li> 
-                        <progress  value="45" max="100"></progress>               
+                        <label>Manejo de HTML</label> 
+                        <progress  value="35" max="100"></progress>               
                     </ul>
                     <ul>
-                        <li>Manejo de</li> 
-                        <li>CSS</li>
-                        <progress value="35" max="100"></progress>            
+                        <label>Manejo de CSS</label> 
+                        <progress value="25" max="100"></progress>            
                     </ul>
                 </div>
-            </section>
-            <section id="contact">
-                <h1 class="titulo">Contacto</h1>
-                <hr>
-        
-                <div>
-                    <label>Correo:</label>
-                    <p>roccodelgado10@gmail.com</p>                     
-                </div>
-                 <div>
-                        <label>Linkedin</label>
-                        <a href="https://www.linkedin.com/in/rocco-delgado-velazquez-3a2b0423a/">roccodelgadovelazquez</a>                 
-                </div>
-                
             </section>
         </div>
         </main>
-        <footer></footer>
     </body>
 </html>
